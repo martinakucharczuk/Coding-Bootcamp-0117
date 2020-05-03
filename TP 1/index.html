@@ -2,17 +2,19 @@
 <html lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MK</title>
     <link rel="stylesheet" href=index.css>
 </head>
 
 <body>
 
-    <!--nav va acá o en head?? Logo Pequeño a la izquierda y lo demás alineado horizontal -->
+    <!-- Logo Pequeño a la izquierda y lo demás alineado horizontal -->
     <header>
         <div>
-            <img src="./img/IsologoMK.png" alt="IsologoMK" title="isologomk" height="10px" width="10px">
-<!-- Armar arcihivo para logo acá chiquito y  -->
+            <img src="./img/IsologoMK.png" alt="IsologoMK" title="isologomk" height="50px" width="50px">
+            <!-- Armar arcihivo para logo acá chiquito -->
             <nav>
                 <p>HOME</p>
                 <p>ABOUT</p>
@@ -38,48 +40,47 @@
     <main>
         <section>
             <title>ABOUT</title>
-            
-                <div>
-                    <img src="./img/Autoretrato.JPG" alt="Autoretrato" height="20px" width="20px">
-                    <p>Autoretrato - 2011</p>
-                </div>
 
-                <div>
-                     <title>BIO</title>
-                    <p>
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo expedita ad porro culpa.
-                   Voluptatem accusamus totam iure! Error mollitia vitae, corporis, est animi tenetur in distinctio ea
-                   voluptas consectetur accusantium.
-                    </p>
-                </div>
-                
-                <div>
-                    <img src="./img/IsologoMK.png" alt="isologomk" title="isologomk">
-                </div>
+            <div>
+                <img src="./img/Autoretrato.JPG" alt="Autoretrato" height="50px" width="50px">
+                <p>Autoretrato - 2011</p>
+            </div>
+
+            <div>
+                <title>BIO</title>
+                <p>
+                    bla bla bla
+                </p>
+            </div>
+
+            <div>
+                <img src="./img/IsologoMK.png" alt="isologomk" title="isologomk" height="50px" width="50px">
+            </div>
+
         </section>
 
         <section>
             <title>PORTFOLIO</title>
 
-                <div>
-                    <p>Retratos</p>
-                    <img src="./img/" alt="">
-                </div>
+            <div>
+                <p>Retratos</p>
+                <img src="./img/" alt="">
+            </div>
 
-                <div>
-                    <p>Eventos Sociales</p>
-                    <img src="./img/" alt="">
-                </div>
+            <div>
+                <p>Eventos Sociales</p>
+                <img src="./img/" alt="">
+            </div>
 
-                <div>
-                    <p>Documental</p>
-                    <img src="./img" alt="">
-                </div>
+            <div>
+                <p>Documental</p>
+                <img src="./img" alt="">
+            </div>
 
-                <div>
-                    <p>Proyectos Personales</p>
-                    <img src="./img/" alt="">
-                </div>
+            <div>
+                <p>Proyectos Personales</p>
+                <img src="./img/" alt="">
+            </div>
         </section>
 
         <section>
@@ -101,54 +102,76 @@
             </div>
 
             <div>
-                Armar tabla con listado
-                Columna 1: Cuadernos Láminas Cuadros
-                Columna 2: Fotolibros Postales Souvenirs
+                <ul>
+                    <li>Libretas</li>
+                    <li>Cuadernos</li>
+                    <li>Ilustraciones</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Láminas</li>
+                    <li>Cuadros</li>
+                    <li>Decoración</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Fotolibros</li>
+                    <li>Postales</li>
+                    <li>Ampliaciones</li>
+                </ul>
             </div>
 
             <div>
                 <title>Newsletter!</title>
                 <p>Registrate para recibir todas las novedades del e-shop y servicios</p>
-                <button> SUBSCRIBE </button>
+                <div>
+                    <a href="https://www.instagram.com/nmartina.ph" target="_blank">SUBSCRIBE</a>
+                </div>
             </div>
 
-        </section>
-            <!-- Formulario para que se contacten usuarios -->
-            <div>
-                <form name="Consulta">
+            <section>
+                <div>
+                    <title>Ubicación</title>
+                    <p>Ramos Mejía, Buenos Aires, Argentina</p>
+                    <img src="googlemaps" alt="location" title="location">
+                </div>
 
-                    <h4>Dejanos tu consulta</h4>
 
-                    <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido">
-                    <input type="email" name="E-mail" placeholder="ejemplo@mail.com">
-                    <input type="text" name="Celular" placeholder="1122334455">
-                    <input type="text" name="Mensaje" placeholder="Escribí acá tu consulta...">
+                <div>
+                    <title>Social Media</title>
 
-                    <button type="submit" tabindex="5">Enviar</button>
+                    <p>nmartina.ph@gmail.com</p>
+                    <p>WhatsApp</p>
+                    <p>Skype</p>
+                </div>
 
-                </form>
+                <div>
+                    <title>Dejá de tu mensaje</title>
 
-            </div>
+                </div>
 
-        </section>
+            </section>
+
+
 
     </main>
-    <footer>
-        <!-- -- Colocar links reales + íconos -->
-        <div>
-            <h4>CONTACTATE</h4>
-            <a href="https://www.instagram.com/nmartina.ph" target="_blank">WhatsApp</a>
-            <a href="https://www.facebook.com/phmartina" target="_blank">E-mail</a>
-            <a href="https://phmartina.pixieset.com/" target="_blank">Skype</a>
-        </div>
 
+
+    <footer>
         <!-- Alinear vertical. Agregar íconos rrss -->
         <div>
-            <h4>REDES SOCIALES</h4>
             <a href="https://www.instagram.com/nmartina.ph" target="_blank">INSTAGRAM</a>
             <a href="https://www.facebook.com/phmartina" target="_blank">FACEBOOK</a>
             <a href="https://phmartina.pixieset.com/" target="_blank">PIXIESET</a>
             <a href="https://github.com/martinakucharczuk" target="_blank">GITHUB</a>
+        </div>
+
+        <div>
+            <p>Designed by Martina Kucharczuk - Mayo, 2020</p>
         </div>
 
     </footer>
