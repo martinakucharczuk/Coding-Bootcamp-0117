@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+ }
+
+ .header h1 {
+     font-family: monospace;
+ }
+ 
+
+ .header h2 {
+    font-family: sans-serif;
+    
+ }
+
+ .mk {
+     position: relative;
+ }

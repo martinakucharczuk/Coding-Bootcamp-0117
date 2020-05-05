@@ -5,103 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MK</title>
+
     <link rel="stylesheet" href=index.css>
 </head>
 
 <body>
 
-    <!-- Logo Pequeño a la izquierda y lo demás alineado horizontal -->
-    <header>
-        <div>
-            <img src="./img/IsologoMK.png" alt="IsologoMK" title="isologomk" height="50px" width="50px">
-            <!-- Armar arcihivo para logo acá chiquito -->
+    <header class="header">
+
+        <div class="navigation">
+
             <nav>
-                <p>HOME</p>
-                <p>ABOUT</p>
-                <p>PORTFOLIO</p>
-                <p>SHOP</p>
-                <p>CONTACTO</p>
+
+                <a href="https://HOME" target="_blank">HOME</a>
+                <a href="https://ABOUT" target="_blank">ABOUT</a>
+                <a href="https://PORTFOLIO" target="_blank">PORTFOLIO</a>
+                <a href="https://E-SHOP" target="_blank">SHOP</a>
+                <a href="https://CONTACTO" target="_blank">CONTACTO</a>
+
             </nav>
 
         </div>
-        <!-- Agregar en CSS foto Hamacas de Fondo. Centrar h1 y h2. p: abajo-->
-        <div>
+
+        <div class="mk">
+
             <h1>MARTINA KUCHARCZUK</h1>
             <h2>Soluciones Creativas</h2>
 
-            <p>ABOUT</p>
-            <p>PORTFOLIO</p>
-            <p>SHOP</p>
-            <p>CONTACTO</p>
         </div>
+
+
 
     </header>
 
     <main>
-        <section>
-            <title>ABOUT</title>
+        <section class="about">
+            <h4>ABOUT</h4>
 
-            <div>
+            <div class="autoretrato">
                 <img src="./img/Autoretrato.JPG" alt="Autoretrato" height="50px" width="50px">
                 <p>Autoretrato - 2011</p>
             </div>
 
-            <div>
+            <div class="bio">
                 <title>BIO</title>
                 <p>
                     bla bla bla
                 </p>
             </div>
 
-            <div>
-                <img src="./img/IsologoMK.png" alt="isologomk" title="isologomk" height="50px" width="50px">
-            </div>
-
+           
         </section>
 
-        <section>
-            <title>PORTFOLIO</title>
+        <section class="portfolio">
 
-            <div>
+            <h4>PORTFOLIO</h4>
+
+            <div class="port-retratos">
                 <p>Retratos</p>
                 <img src="./img/" alt="">
             </div>
 
-            <div>
+            <div class="port-sociales">
                 <p>Eventos Sociales</p>
                 <img src="./img/" alt="">
             </div>
 
-            <div>
+            <div class="port-documental">
                 <p>Documental</p>
                 <img src="./img" alt="">
             </div>
 
-            <div>
+            <div class="personales">
                 <p>Proyectos Personales</p>
                 <img src="./img/" alt="">
             </div>
         </section>
 
-        <section>
-            <title>SHOP</title>
+        <section class="shop">
 
-            <div>
+            <h5>SHOP</h5>
+
+            <div class="trabajos">
                 <p>Trabajos Personalizados</p>
                 <img src="" alt="">
             </div>
 
-            <div>
+            <div class="impresiones">
                 <p>Impresiones de todo tipo</p>
                 <img src="" alt="">
             </div>
 
-            <div>
+            <div class="presupuestos">
                 <p>Presupuestos sin cargo</p>
                 <img src="" alt="">
             </div>
 
-            <div>
+            <div class="productos1">
                 <ul>
                     <li>Libretas</li>
                     <li>Cuadernos</li>
@@ -109,7 +109,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="productos2">
                 <ul>
                     <li>Láminas</li>
                     <li>Cuadros</li>
@@ -117,7 +117,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="productos2">
                 <ul>
                     <li>Fotolibros</li>
                     <li>Postales</li>
@@ -125,23 +125,28 @@
                 </ul>
             </div>
 
-            <div>
-                <title>Newsletter!</title>
+            <div class="newsletter">
+                <h5>Newsletter</h5>
+
                 <p>Registrate para recibir todas las novedades del e-shop y servicios</p>
+
                 <div>
-                    <a href="https://www.instagram.com/nmartina.ph" target="_blank">SUBSCRIBE</a>
+                    <button>
+                        <a href="https://www.instagram.com/nmartina.ph" target="_blank">SUBSCRIBE</a>
+                    </button>
+
                 </div>
             </div>
 
-            <section>
-                <div>
+            <section class="contacto">
+                <div class="ubicacion">
                     <title>Ubicación</title>
                     <p>Ramos Mejía, Buenos Aires, Argentina</p>
                     <img src="googlemaps" alt="location" title="location">
                 </div>
 
 
-                <div>
+                <div class="digital contact">
                     <title>Social Media</title>
 
                     <p>nmartina.ph@gmail.com</p>
@@ -149,7 +154,7 @@
                     <p>Skype</p>
                 </div>
 
-                <div>
+                <div class="formulario">
                     <title>Dejá de tu mensaje</title>
 
                 </div>
@@ -163,14 +168,14 @@
 
     <footer>
         <!-- Alinear vertical. Agregar íconos rrss -->
-        <div>
+        <div class="social-media">
             <a href="https://www.instagram.com/nmartina.ph" target="_blank">INSTAGRAM</a>
             <a href="https://www.facebook.com/phmartina" target="_blank">FACEBOOK</a>
             <a href="https://phmartina.pixieset.com/" target="_blank">PIXIESET</a>
             <a href="https://github.com/martinakucharczuk" target="_blank">GITHUB</a>
         </div>
 
-        <div>
+        <div class="derechos">
             <p>Designed by Martina Kucharczuk - Mayo, 2020</p>
         </div>
 
