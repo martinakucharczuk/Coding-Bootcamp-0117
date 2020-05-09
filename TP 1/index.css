@@ -1,19 +1,132 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    background-color: lightcoral;
- }
+/*modificaciones generales de textos H1 H2 H4 P*/
 
- .header h1 {
-     font-family: monospace;
- }
- 
-
- .header h2 {
+h1 { 
+    font-size: 2em;
     font-family: sans-serif;
-    
- }
+    color: white;
 
- .mk {
-     position: relative;
- }
+}
+
+h2{ 
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: inline-block;
+}
+
+h4 {
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:tomato;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: crimson;
+
+}
+
+/*Modificaciones section HEADER*/
+
+header {
+    text-align:center;
+    padding: 3em;
+    background-image: url(./img/FondoHojas.JPG) ;
+
+}
+
+/*Modificaciones section ABOUT*/
+.about {
+
+}
+
+.img-autoretrato {
+    width: 25%;
+    height: 25%;
+}
+
+/*Modificaciones section PORTFOLIO*/
+
+.portfolio {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.port-retratos {
+    width: 25%;
+    height: 25%;
+}
+
+.port-sociales { 
+    width: 25%;
+    height: 25%;
+
+}
+
+.port-bandas {
+    width: 25%;
+    height: 25%;
+
+}
+
+.port-documental {
+    width: 25%;
+    height: 25%;
+
+}
+
+/*Modificaciones section SHOP*/
+
+.shop {
+    display: inline-block;
+    justify-content: space-around;
+    
+}
+
+.img-trabajos {
+    width: 15%;
+    height: 15%;
+
+}
+
+.img-impresiones {
+    width: 15%;
+    height: 15%;
+}
+
+.img-presupuestos {
+    width: 15%;
+    height: 15%;
+}
+
+.newsletter {
+
+
+}
+
+button {
+
+}
+
+/*Modificaciones section CONTACTO*/
+
+.contacto {
+
+}
+
+.formulario {
+
+}
+
+.contacto2 {
+
+}
+
+.ubicacion {
+
+}
+
