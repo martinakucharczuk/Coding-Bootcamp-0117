@@ -33,13 +33,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end ;
-    height: 10vh;
+    height: 7vh;
     background: lightgoldenrodyellow ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 0;
     padding: 0;
+}
+
+.navigation img {
+    height: 25px;
+    width: 25x;
 }
 
 .navigation a {
