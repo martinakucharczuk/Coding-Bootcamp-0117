@@ -1,58 +1,124 @@
-/*modificaciones generales de textos H1 H2 H4 P*/
+
+@font-face{
+   font-family: "Barlow";
+   src: url(./fonts/BarlowCondensed-Medium.ttf) ; 
+}
+
+@font-face{
+    font-family: "PatrickHand";
+    src: url(./fonts/PatrickHand-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Raleway";
+    src: url(fonts/Raleway-Medium.ttf)
+}
+
+@font-face {
+    font-family: "IndieFlower";
+    src: url(fonts/IndieFlower-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Raleway";
+    background-color: antiquewhite;
+}
+
+/*NAVIGATION*/
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+    height: 10vh;
+    background: lightgoldenrodyellow ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: tomato
+}
+
+.navigation a:hover{
+    text-decoration: none;
+    color: darkred
+}
+
+main {
+    background-color: antiquewhite;
+    text-align: center;
+         
+}
+
+
+/*Textos H1 H2 H4 P*/
 
 h1 { 
-    font-size: 2em;
-    font-family: sans-serif;
-    color: white;
+    font-size: 3.5em;
+    font-family: "Barlow";
+    color:lightsalmon;
 
 }
 
 h2{ 
-    font-size: 1em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    font-size: 1.5em;
+    color:seashell;
     display: inline-block;
 }
 
 h4 {
+    display: inline-block;
     font-size: 1em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:tomato;
     text-align: center;
 }
 
 p {
     font-size: 1em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: crimson;
-
 }
 
-/*Modificaciones section HEADER*/
+/*HEADER*/
 
 header {
-    text-align:center;
-    padding: 3em;
-    background-image: url(./img/FondoHojas.JPG) ;
-
+    text-align: center ;
+    background-image: url(img/FondoFloresBlancas.JPG) ;
+    background-repeat: no-repeat;
+    background-origin: cover;
+    background-size: 100%;
+    background-position: center;
+    height: 90h;
+    padding: 10px ;
+    margin-bottom: 10px;
 }
 
-/*Modificaciones section ABOUT*/
+/*ABOUT*/
 .about {
-
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .img-autoretrato {
-    width: 25%;
-    height: 25%;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
 }
 
-/*Modificaciones section PORTFOLIO*/
+/*PORTFOLIO*/
 
 .portfolio {
-    display: inline-flex;
-    justify-content: space-evenly;
-    align-items: center;
+    margin-left: 20px;
+    text-align: cente;
 
 }
 
@@ -79,32 +145,60 @@ header {
 
 }
 
-/*Modificaciones section SHOP*/
+/*SHOP*/
 
 .shop {
-    display: inline-block;
-    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .img-trabajos {
-    width: 15%;
+    filter: grayscale(100%);
+    width: 30%;
     height: 15%;
 
 }
 
+.img-trabajos:hover {
+    filter: grayscale(0%);
+    border-radius: 15px;
+}
+
+
 .img-impresiones {
-    width: 15%;
-    height: 15%;
+    filter: grayscale(100%);
+    width: 30%;
+    height: 30%;
+}
+
+.img-impresiones:hover {
+    filter: grayscale(0%);
+    border-radius: 15px;
 }
 
 .img-presupuestos {
-    width: 15%;
-    height: 15%;
+    filter: grayscale(100%);
+    width: 30%;
+    height: 30%;
+}
+
+.img-presupuestos:hover {
+    filter: grayscale(0%);
+    border-radius: 15px;
 }
 
 .newsletter {
-
+    margin-left: 20px;
+    display: inline-block;
+    font-family: "IndieFlower";
+    height: 100%;
+    width: 25%;
 
 }
 
@@ -112,21 +206,29 @@ button {
 
 }
 
-/*Modificaciones section CONTACTO*/
+/*CONTACTO*/
 
 .contacto {
-
+    margin-left: 20px;
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+   
 }
 
 .formulario {
 
 }
 
-.contacto2 {
+/*FOOTER*/
 
+footer {
+    height: 15h;
 }
 
-.ubicacion {
+.derechos {
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 1em;
 
 }
-
