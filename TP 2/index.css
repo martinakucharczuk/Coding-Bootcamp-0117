@@ -7,11 +7,10 @@ body {
 
 .container-login {
     width: 50% ;
-    height: auto;
     padding: 20px 30px;
     background: linear-gradient(0deg, rgba(0,0,0,1) 23%, rgba(89,14,143,1) 82%);
     border-radius: 10px;
-    margin: auto;
+
        
 }
 
@@ -19,24 +18,5 @@ ul.list {
     list-style-type: none;
     text-align: center;
 
-
- }
-
-
- ul.list li {
-    width: 100px;
-      
-
- }
-
- ul.list li input {
-    width: 100px;
-    text-align: center;
-    padding: 1px
-
- }
-
- ul.list li input [type="button"] {
-    background-color: blueviolet;
 
  }
