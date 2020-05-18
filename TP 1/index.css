@@ -22,18 +22,64 @@
 body {
     margin: 0;
     padding: 0;
-    border: 0;
     font-family: "Raleway";
     background-color: antiquewhite;
 }
 
-/*NAVIGATION*/
+/*Textos H1 H2 H4 P*/
 
-.navigation {
+h1 { 
+    margin-top: 30px;
+    align-self: center;   
+    font-size: 3.5em;
+    font-family: "Barlow";
+    color:lightsalmon;
+
+}
+
+h2{ 
+    align-self: center;
+    font-size: 1.5em;
+    color:seashell;
+    
+}
+
+h4 {
+    display: inline-block;
+    font-size: 1em;
+    color:tomato;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    color: crimson;
+}
+
+
+/*HEADER: falta centrar vertical h1 y h2*/
+
+header {
+    text-align: center;
+    background-image: url(img/FondoFloresBlancas.JPG) ;
+    background-repeat: no-repeat;
+    background-origin: cover;
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0 ;
+    margin-bottom: 0;
+}
+
+
+/*NAVIGATION: falta distribuir mejor url*/
+
+.navigation-container {
     display: flex;
-    align-items: center;
-    justify-content: flex-end ;
-    height: 7vh;
+    flex-wrap: wrap;
+    height: 15vh;
+    width: 100%;
     background: lightgoldenrodyellow ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,9 +88,17 @@ body {
     padding: 0;
 }
 
-.navigation img {
-    height: 25px;
-    width: 25x;
+.navigation {
+  align-self: flex-end;
+  justify-content: space-around;
+  width: 70%;
+    
+}
+
+.logo {
+    display: inline-block;
+    align-self: center;
+    height: 80%;
 }
 
 .navigation a {
@@ -60,175 +114,114 @@ body {
 main {
     background-color: antiquewhite;
     text-align: center;
-         
 }
 
 
-/*Textos H1 H2 H4 P*/
 
-h1 { 
-    font-size: 3.5em;
-    font-family: "Barlow";
-    color:lightsalmon;
-
-}
-
-h2{ 
-    font-size: 1.5em;
-    color:seashell;
-    display: inline-block;
-}
-
-h4 {
-    display: inline-block;
-    font-size: 1em;
-    color:tomato;
-    text-align: center;
-}
-
-p {
-    font-size: 1em;
-    color: crimson;
-}
-
-/*HEADER*/
-
-header {
-    text-align: center ;
-    background-image: url(img/FondoFloresBlancas.JPG) ;
-    background-repeat: no-repeat;
-    background-origin: cover;
-    background-size: 100%;
-    background-position: center;
-    height: 90h;
-    padding: 10px ;
-    margin-bottom: 10px;
-}
-
-/*ABOUT*/
-.about {
-    margin-left: 20px;
+/*ABOUT: darle forma al texto*/
+.about-container {
+    margin: 20px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
     
 }
 
-.img-autoretrato {
+.about-img {
     display: inline-block;
-    height: 300px;
-    width: 300px;
+    height: 50vh;
+    
 }
 
-/*PORTFOLIO*/
+.about-texto {
+    
 
-.portfolio {
-    margin-left: 20px;
-    text-align: cente;
+}
 
+/*PORTFOLIO: animar categorías a blur, byn y agregar texto?*/
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .port-retratos {
-    width: 25%;
-    height: 25%;
-}
-
-.port-sociales { 
-    width: 25%;
-    height: 25%;
-
-}
-
-.port-bandas {
-    width: 25%;
-    height: 25%;
-
-}
-
-.port-documental {
-    width: 25%;
-    height: 25%;
-
-}
-
-/*SHOP*/
-
-.shop {
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 30%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+     margin: 10px;
     
 }
 
-.img-trabajos {
+.port-retratos:hover {
     filter: grayscale(100%);
-    width: 30%;
-    height: 15%;
+       
+}
+
+.port-sociales { 
+    margin: 10px;
 
 }
 
-.img-trabajos:hover {
-    filter: grayscale(0%);
-    border-radius: 15px;
-}
-
-
-.img-impresiones {
+.port-sociales:hover {
     filter: grayscale(100%);
-    width: 30%;
-    height: 30%;
+        
+ }
+
+.port-bandas {
+    margin: 10px;
+
 }
 
-.img-impresiones:hover {
-    filter: grayscale(0%);
-    border-radius: 15px;
-}
-
-.img-presupuestos {
+.port-bandas:hover {
     filter: grayscale(100%);
-    width: 30%;
-    height: 30%;
+        
+ }
+
+
+.port-documental {
+    margin: 10px;
+
 }
 
-.img-presupuestos:hover {
-    filter: grayscale(0%);
-    border-radius: 15px;
+.port-documental:hover {
+    filter: grayscale(100%);
+        
+ }
+
+
+
+/*AGREGAR SECTION SHOP*/
+
+
+/*CONTACTO: falta alinear formulario */
+
+.contacto {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+         
 }
 
-.newsletter {
-    margin-left: 20px;
-    display: inline-block;
-    font-family: "IndieFlower";
-    height: 100%;
-    width: 25%;
+.form-container {
+  
+}
 
+.newsletter-container {
+    text-align: end;
 }
 
 button {
 
 }
 
-/*CONTACTO*/
 
-.contacto {
-    margin-left: 20px;
-    display: inline-block;
-    text-align: center;
-    height: 100%;
-   
-}
 
-.formulario {
-
-}
 
 /*FOOTER*/
 
 footer {
-    height: 15h;
+    height: 15vh;
+   text-align: center;
 }
 
 .derechos {

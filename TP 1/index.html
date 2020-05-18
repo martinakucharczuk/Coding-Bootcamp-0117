@@ -9,26 +9,26 @@
     <link rel="stylesheet" href=index.css>
     <link rel="C:\Users\Martina\Desktop\Coding Bootcamp\TPs\TP 1\fonts">
 
-
-
 </head>
 
 <body>
 
     <header>
 
-        <div class="navigation">
-            <nav>
+        <div class="navigation-container">
+
+            <img src="img/IsologoMK.png" alt="Logo" class="logo">
+
+            <nav class="navigation">
 
                 <ul>
-                    <img src="img/IsologoMK.png" alt="Logo">
+
                     <a href="https://HOME" target="_blank">HOME</a>
                     <a href="https://ABOUT" target="_blank">ABOUT</a>
                     <a href="https://PORTFOLIO" target="_blank">PORTFOLIO</a>
-                    <a href="https://E-SHOP" target="_blank">SHOP</a>
                     <a href="https://CONTACTO" target="_blank">CONTACTO</a>
                 </ul>
-        
+
             </nav>
         </div>
 
@@ -39,58 +39,44 @@
 
     <main>
 
-        <section class="portfolio">
+        <article class="about-container">
 
-            <!-- <h4>PORTFOLIO</h4> -->
+            <img class="about-img" src="./img/CuadradaAutoBN.jpg" alt="Autoretrato">
 
-            <div>
-                <img class="port-retratos" src="img/Llanca.jpg" alt="Llanca" title="Llanca">
-                <p>Retratos</p>
+            <div class="about-texto">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis quidem vitae tenetur
+                    dolorem
+                    accusamus tempore ex commodi sequi ratione voluptate, culpa recusandae suscipit rerum similique,
+                    velit dolore cupiditate fugiat.
+                </p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis quidem vitae tenetur
+                    dolorem
+                    accusamus tempore ex commodi sequi ratione voluptate, culpa recusandae suscipit rerum similique,
+                    velit dolore cupiditate fugiat.
+                </p>
             </div>
 
-            <div>
-                <img class="port-sociales" src="./img/SocialesBombonera.jpg" alt="Boda en la Bombonera"
-                    title="Boda en la Bombonera">
-                <p>Eventos Sociales</p>
-            </div>
+        </article>
 
-            <div>
-                <img class="port-bandas" src="img/CuadradaLordencih.jpg" alt="Lordencih" title="Lordencih">
-                <p>Shows</p>
-            </div>
+        <section class="portfolio-container">
 
-            <div>
-                <img class="port-documental" src="./img/Documental8m.jpg" alt="La put* que te paró"
-                    title="La put* que te paró">
-                <p>Documental</p>
-            </div>
 
-        </section>
+            <img class="port-retratos" src="img/Llanca.jpg" alt="Llanca" title="Llanca">
 
-        <section class="about">
-            <!-- <h4>BIO</h4> -->
-            <article>
-                <div>
-                    <img class="img-autoretrato" src="./img/CuadradaAutoBN.jpg" alt="Autoretrato">
-                    <p>Autoretrato - 2011</p>
-                </div>
+            <img class="port-sociales" src="./img/SocialesBombonera.jpg" alt="Boda en la Bombonera"
+                title="Boda en la Bombonera">
 
-                <div>
-                    <p>Hola, soy Martina. Saco fotos, pero las saco comoiokiero.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis quidem vitae tenetur
-                        dolorem
-                        accusamus tempore ex commodi sequi ratione voluptate, culpa recusandae suscipit rerum similique,
-                        velit dolore cupiditate fugiat.
-                    </p>
-                </div>
-            </article>
+            <img class="port-bandas" src="img/CuadradaLordencih.jpg" alt="Lordencih" title="Lordencih">
+
+            <img class="port-documental" src="./img/Documental8m.jpg" alt="La put* que te paró"
+                title="La put* que te paró">
 
 
         </section>
 
-        <section class="shop">
 
-            <!-- <h4>SHOP</h4> -->
+
+        <!-- <section class="shop">
 
             <div>
                 <img class="img-trabajos" src="./img/FondoFlor.jpg" alt="flores">
@@ -107,7 +93,7 @@
                 <p>Presupuestos sin cargo</p>
             </div>
 
-            <!-- <div class="productos1">
+            <-- <div class="productos1">
                 <ul>
                     <li>Libretas</li>
                     <li>Cuadernos</li>
@@ -130,36 +116,37 @@
                     <li>Ampliaciones</li>
                 </ul>
             </div> -->
-        </section>
-
-        <section class="newsletter">
-
-            <div>
-                <h4>Newsletter</h4>
-
-                <p>Registrate para recibir todas las novedades y ofertas del e-shop y nuestros servicios</p>
-
-                <button>
-                    <a href="https://www.e-shopimaginario.com" target="_blank">¡REGISTRATE!</a>
-                </button>
-            </div>
-
-        </section>
-
+        <!-- </section> -->
 
         <section class="contacto">
-            <h4>Contactanos</h4>
 
-            <div>
-                <a href="https://acavawapp.com" target="_blank">WhatsApp</a>
-                <a href="https://sale-ese-mail.com" target="_blank">Gmail</a>
-                <a href="https://join.skype.com/invite/xGBfgkWvmqwF" target="_blank">Skype</a>
+
+            <div class="form-container">
+
+                <form action="" title="Mensaje">
+
+                    <ul>
+                        <input type="text" placeholder="Nombre Completo">
+                        <input type="email" placeholder="hola@ejemplo.com">
+                        <input type="tel" placeholder="Acá va tu celu">
+                        <input type="text" placeholder="Dejá tu mensaje acá!">
+                        <button type="submit"><a href="https://www.e-shopimaginario.com"
+                                target="_blank">¡REGISTRATE!</a></button>
+                    </ul>
+
+                </form>
             </div>
 
-            <div class="formulario">
 
+            <div class="newsletter-container">
+                <h4>Newsletter</h4>
+
+                <p>Registrate para recibir todas las novedades
+                    <br> ofertas del e-shop y nuestros servicios 
+                </p>
 
             </div>
+
 
         </section>
 
@@ -170,14 +157,14 @@
 
     <footer>
 
-        <nav class="navigation">
+        <nav class="navigation-container">
 
-            <ul>
-                <a href="https://HOME" target="_blank">HOME</a>
-                <a href="https://ABOUT" target="_blank">ABOUT</a>
-                <a href="https://PORTFOLIO" target="_blank">PORTFOLIO</a>
-                <a href="https://E-SHOP" target="_blank">SHOP</a>
-                <a href="https://CONTACTO" target="_blank">CONTACTO</a>
+            <ul class="navigation">
+                <a href="https://HOME" target="_blank">INSTAGRAM</a>
+                <a href="https://ABOUT" target="_blank">FACEBOOK</a>
+                <a href="https://PORTFOLIO" target="_blank">WHATSAPP</a>
+                <a href="https://E-SHOP" target="_blank">SKYPE</a>
+                <a href="https://CONTACTO" target="_blank">GMAIL</a>
             </ul>
 
         </nav>
