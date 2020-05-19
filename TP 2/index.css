@@ -1,7 +1,8 @@
 * {margin: 0; padding: 0;}
 
 body {
-   padding-top: 10vh;
+   padding: 0;
+   margin: 0;
 }
 
 .fondo {
@@ -9,21 +10,38 @@ body {
    background-repeat: no-repeat;
    background-position: center;
    background-size: contain;
+   display: flex;
+   justify-content: left;
+   align-items: center;
 
 }
 
 .container-login {
-    width: 50% ;
-    padding: 20px 30px;
-    background: lightblue;
-    border-radius: 10px;
+   display: inline-block;
+   justify-content: center;
+   background: lightblue;
+   border-radius: 10%;
 
        
+}
+
+.icon {
+   display: inline-block;
+   border: 5px solid  ;
+   border-radius: 10;
+   padding: 0;
+   margin: 0 ;
+   size: 15% ;
+   
+}
+
+.icon img {
+   size: 10%;
+
 }
 
 ul.list {
     list-style-type: none;
     text-align: center;
-
 
  }
