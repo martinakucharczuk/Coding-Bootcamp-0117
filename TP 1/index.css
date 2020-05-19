@@ -89,10 +89,7 @@ header {
 }
 
 .navigation {
-  align-self: flex-end;
-  justify-content: space-around;
-  width: 70%;
-    
+      
 }
 
 .logo {
