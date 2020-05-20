@@ -33,6 +33,7 @@ h1 {
     align-self: center;   
     font-size: 3.5em;
     font-family: "Barlow";
+    text-shadow: 3px 3px 1px black;
     color:lightsalmon;
 
 }
@@ -41,6 +42,7 @@ h2{
     align-self: center;
     font-size: 1.5em;
     color:seashell;
+    text-shadow: 3px 3px 1px black;
     
 }
 
