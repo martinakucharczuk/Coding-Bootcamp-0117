@@ -1,3 +1,4 @@
+/*FUENTES*/
 
 @font-face{
    font-family: "Barlow";
@@ -19,6 +20,8 @@
     src: url(fonts/IndieFlower-Regular.ttf);
 }
 
+/*BODY (hacer menor cantidad de cambios posible)*/
+
 body {
     margin: 0;
     padding: 0;
@@ -29,8 +32,7 @@ body {
 /*Textos H1 H2 H4 P*/
 
 h1 { 
-    margin-top: 30px;
-    align-self: center;   
+    
     font-size: 3.5em;
     font-family: "Barlow";
     text-shadow: 3px 3px 1px black;
@@ -39,7 +41,6 @@ h1 {
 }
 
 h2{ 
-    align-self: center;
     font-size: 1.5em;
     color:seashell;
     text-shadow: 3px 3px 1px black;
@@ -59,28 +60,34 @@ p {
 }
 
 
-/*HEADER: falta centrar vertical h1 y h2*/
+/*HEADER*/
 
 header {
-    text-align: center;
     background-image: url(img/FondoFloresBlancas.JPG) ;
     background-repeat: no-repeat;
-    background-origin: cover;
+    background-origin: content-box;
     background-size: 100%;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     padding: 0 ;
     margin-bottom: 0;
+    
 }
 
+.headings {
+    text-align: center;
+    margin-top: 10%;
 
-/*NAVIGATION: falta distribuir mejor url*/
+}
+
+/*NAVIGATION: falta aplicar GRID a links*/
 
 .navigation-container {
     display: flex;
-    flex-wrap: wrap;
-    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
     width: 100%;
     background: lightgoldenrodyellow ;
     background-repeat: no-repeat;
@@ -90,22 +97,31 @@ header {
     padding: 0;
 }
 
-.navigation {
-      
-}
-
 .logo {
     display: inline-block;
-    align-self: center;
     height: 80%;
+    margin-left: 2%;
+}
+
+.navigation{
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    margin-left: 5%;
+    padding: 0;
 }
 
 .navigation a {
+    margin: 8%;
     text-decoration: none;
     color: tomato
 }
 
 .navigation a:hover{
+    margin: 8%;
     text-decoration: none;
     color: darkred
 }
@@ -132,10 +148,7 @@ main {
     
 }
 
-.about-texto {
-    
 
-}
 
 /*PORTFOLIO: animar categorías a blur, byn y agregar texto?*/
 
@@ -209,9 +222,6 @@ main {
     text-align: end;
 }
 
-button {
-
-}
 
 
 

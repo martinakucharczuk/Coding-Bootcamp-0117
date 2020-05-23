@@ -1,0 +1,33 @@
+/* MOBILE */
+body{
+    margin: 0;
+    padding: 0;
+}
+.fondo{
+    background-color: coral;
+    height: 100vh;
+}
+.img{
+    width: 100%;
+}
+.responsive{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.responsive > div {
+    width: 85%;
+}
+.tercero {
+    display: none;
+}
+
+/* DESKTOP */
+@media (min-width: 700px) {
+    .responsive > div {
+        width: 27%;
+    }
+    .tercero {
+        display: block;
+    }
+}
