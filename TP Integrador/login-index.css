@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(font-login/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Black';
+    src: url(font-login/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: "Akbar";
+    src: url(font-login/akbar.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway";
+    font-size: 1em;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    margin-left: 4%;
+}
+
+.logo img {
+    width: 25%;
+}
+
+.navigation {
+    display: inline-block;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    margin: 2%;
+    color: #006600;
+    font-size: 0.8em;
+    transition: all 100ms ease-out;
+}
+
+a:hover {
+    font-family: 'Raleway-Black';
+    font-size: 1em;
+}
+
+.fondo {
+    background-color: black;
+    background-image: url(img-login/fondo-tienda.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-login {
+    background-color: #FFCC00;
+    border-radius: 5%;
+    width: 20%;
+    padding: 1%;
+}
+
+.icon {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.icon img {
+    border-radius: 100px;
+    border: 0.2em #006600 solid;
+    margin-top: 40px ;
+    margin-bottom: 20px;
+    height: 40%;
+    width: 40%;
+}
+
+.inicio {
+    font-family: "Akbar";
+    font-size: 0.9em;
+}
+
+.list {
+    font-family: "Raleway";
+}
+
+.list li {
+    list-style-type: none;
+    text-align: center;
+    margin: 5%;
+}

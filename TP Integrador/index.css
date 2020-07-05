@@ -1,0 +1,344 @@
+/*FONTS*/
+@font-face {
+    font-family: 'Raleway';
+    src: url(./fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Black';
+    src: url(./fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Akbar';
+    src: url(./fonts/akbar.ttf);
+}
+
+/* GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFCC00;
+    font-family: 'Raleway';
+    color: #ffffff;
+    border: none;
+    text-align: center;
+}
+
+a {
+    margin: 2%;
+    color: #006600;
+    font-size: 0.8em;
+    transition: all 100ms ease-out;
+}
+
+a:hover {
+    font-family: 'Raleway-Black';
+    font-size: 1em;
+}
+
+/*HEADER*/
+header {
+    width: 100%;
+    background-color: #FFCC00;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    width: 15%;
+    text-align: left;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.navigation {
+    display: inline-block;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*INICIO*/
+.container-inicio {
+    width: 100%;
+    height: 85vh;
+    background-color: #006600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bailando {
+    width: 45%;
+    margin: 1%;
+}
+
+.bailando img {
+    border-radius: 10px;
+}
+
+.bailando p {
+    font-family: 'Raleway';
+    color: khaki;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.titulares {
+    width: 55%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Akbar';
+    font-size: 4em;
+    text-shadow: 4px 4px 1px black;
+    display: block;
+    margin-bottom: 5%;
+}
+
+h2 {
+    font-family: 'Akbar';
+    font-size: 1.5em;
+    text-shadow: 3px 3px 1px black;
+    margin-bottom: 5%;
+}
+
+.boton-container {
+    width: max-content;
+    display: inline-block;
+    border-radius: 10px;
+    background: #f73a05;
+    text-align: center;
+}
+
+.boton-container a {
+    margin: 3%;
+    color: #ffffff;
+}
+
+.boton {
+    border-radius: 10px;
+    background: #f73a05;
+}
+
+.boton p {
+    margin: 4%;
+    color: #ffffff;
+    font-family: 'Raleway-Black';
+}
+
+/*INFO*/
+
+.container-info {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    margin: 2%;
+}
+
+.card-info {
+    display: inline-block;
+    width: 33%;
+}
+
+.card-info img {
+    width: 100%;
+}
+
+/* LINE-UP */
+
+.container-lineup {
+    text-align: center;
+    height: 100%;
+    margin: 2%;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+}
+
+.artista {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.artista img {
+    border-radius: 300px;
+    width: 70%;
+    transition: 0.5s ease-out;
+    filter: grayscale(60%);
+}
+
+.artista img:hover {
+    border-radius: 10px;
+    filter: grayscale(0%);
+}
+
+.nombre-artista {
+    display: inline-block;
+    width: 70%;
+    margin: 2%;
+    color: white;
+    font-family: 'Akbar';
+    font-size: 1em;
+    text-shadow: 2px 2px 1px black;
+}
+
+/*TIENDA*/
+
+.container-tienda {
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    background-color: #006600;
+}
+
+.container-cards {
+    width: 100%;
+}
+
+.card1 {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.card1 img {
+    width: 80%;
+    border-radius: 500px;
+}
+
+.card2 {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.card2 img {
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.card1 h4 {
+    font-size: 1.5em;
+    margin: 5%;
+    color: #fdbb2d;
+    font-family: 'Raleway-Black';
+    transition: all 0.35s ease-in-out;
+}
+
+.card1 h4:hover {
+    font-size: 2em;
+}
+
+.card2 h4 {
+    font-size: 1.5em;
+    margin: 5%;
+    color: #fdbb2d;
+    font-family: 'Raleway-Black';
+    transition: all 0.35s ease-in-out;
+}
+
+.card2 h4:hover {
+    font-size: 2em;
+}
+
+/*NEWSLETTER*/
+
+.container-newsletter {
+    text-align: center;
+    width: 100%;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 2%;
+}
+
+.newsletter-texto {
+    font-family: 'Akbar';
+    font-size: 1.3em;
+    color: #006600;
+    padding: 2%;
+}
+
+.mail {
+    width: 30%;
+}
+
+/*FOOTER*/
+
+.footer-container {
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-footer {
+    width: 70%;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-footer a {
+    font-size: 1em;
+    transition: all 100ms ease-out;
+}
+
+.navigation-footer a:hover {
+    font-size: 1.2em;
+}
+
+/*MQ*/
+@media(max-width:910px) {
+    .container-inicio {
+        width: 100%;
+        background-color: #006600;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bailando {
+        text-align: center;
+        margin: 1%;
+    }
+    .titulares {
+        display: block;
+        text-align: center;
+    }
+    h1 {
+        font-family: 'Akbar';
+        font-size: 2em;
+        text-shadow: 4px 4px 1px black;
+        display: block;
+        margin-bottom: 5%;
+    }
+    h2 {
+        font-family: 'Akbar';
+        font-size: 0.9em;
+        text-shadow: 3px 3px 1px black;
+        margin-bottom: 5%;
+    }
+}
